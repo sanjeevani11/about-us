@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="academic.html">Academics</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="card">
+      <img
+        src="formal photo.jpeg"
+        alt="IMAGE"
+        class="card_image"
+        style="width: 100%;"
+        onmouseover="hover(this);"
+        onmouseout="unhover(this);"
+      />
+      <div class="container">
+        <h4><b>Sanjeevani Sharma</b></h4>
+        <p>Front-End Developer & cloud platform user</p>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer_detail">
+        <p>
+          &copy 2020 Copyright:
+          <a href="https://www.linkedin.com/in/sanjeevani-sharma-6582b71a0/"
+            >SANJEEVANI SHARMA</a >
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      function hover(element) {
+        element.setAttribute('src', 'images/formal photo.jpeg');
+      }
+
+      function unhover(element) {
+        element.setAttribute('src', 'images/formal photo.jpeg');
+      }
+    </script>
+  </body>
+</html>

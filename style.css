@@ -1,0 +1,194 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:20px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .selected a{
+  font-weight: 900;
+  color:#e8491d;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100%;
+}
+
+.card_image{
+  height: 100%;
+  object-fit: contain;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.footer {
+  background-color: #283E4A;
+  bottom: 0;
+  min-height: 70px;
+  position: relative;
+  width: 100%;
+}
+
+.footer_detail{
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  font-size: larger;
+}
+
+.footer_detail > p > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.cocurricular {
+  margin-top: 20px;
+}
+
+.cocurricular > h2 {
+  font-size: 18;
+  font-weight: 300;
+}
+
+.academics {
+  margin-top: 20px;
+}
+
+.academics > h2 {
+  font-size: 18;
+  font-weight: 300;
+}
+
+.intro {
+  background-color: #f2f2f2;
+  width: 75%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.intro > p {
+  font-size: 24px;
+}
+
+.skills {
+  background-color: #f2f2f2;
+  width: 75%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.progress {
+  margin-top: 10px;
+  height: 30px !important;
+  width: 100%;
+}
+
+.progress-bar {
+  font-size: large;
+  padding: 10px;
+}
+
+.projects {
+  background-color: #f2f2f2;
+  width: 75%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.project {
+  margin-top: 10px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.project > h5 {
+  text-align: center;
+  font-weight: 300;
+}
+
+.project > a {
+  color: black;
+  text-transform: none;
+}
+
+.project_image {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+@media(max-width: 768px){
+  header nav,
+  header nav li{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    min-height: 50px;
+    padding-bottom:20px;
+  }
+
+  .card{
+    height: 100%;
+    width: 80%;
+  }
+}
